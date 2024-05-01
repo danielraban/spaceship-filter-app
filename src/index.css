@@ -1,13 +1,25 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  /* A dark background color that is easy on the eyes */
+  background-color: #121212; 
+  /* Light grey text color for contrast and readability */
+  color: #e0e0e0; 
+  /* Using 'Poppins' as a stylish, modern font that is highly readable and available on Google Fonts */
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  /* Maintaining a distinct font for code to differentiate from regular text */
+  font-family: 'Fira Code', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  /* Light background for code blocks to slightly stand out from the body background */
+  background-color: #282c34;
+  /* Soft white color for code text to reduce glare */
+  color: #abb2bf;
+  padding: 8px;
+  border-radius: 4px;
 }
